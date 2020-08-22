@@ -80,7 +80,7 @@ customJS  = []
 justifyContent = false  # Set "text-align: justify" to .post-content.
 
 # Default theme "light" or "dark"
-defaultTheme = "dark"
+defaultTheme = "light"
 themeColor = "#252627"
 
 # Colors for favicons
@@ -125,13 +125,18 @@ url  = "https://www.linkedin.com/"
 
 [languages]
 [languages.en]
-subtitle  = "Hello Friend NG Theme"
+subtitle  = ""
 weight    = 1
 copyright = ""
 
-[languages.fr]
-subtitle  = "Hello Friend NG Theme"
+[languages.jp]
+subtitle  = ""
 weight    = 2
+copyright = ""
+
+[languages.lk]
+subtitle  = ""
+weight    = 3
 copyright = ""
 
 [menu]
