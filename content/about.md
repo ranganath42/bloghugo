@@ -5,7 +5,7 @@ aliases = ["about-us","contact"]
 [ author ]
   name = "Ranganath G"
 +++
-
+                
 My name is Ranganath. 
 
 I am a developer. Sometimes motivated, and mostly curious.

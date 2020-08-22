@@ -1,5 +1,5 @@
 baseURL = "http://ranganath.me"
-title   = "Nothing continues to happen"
+title   = ""
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -53,11 +53,11 @@ dateformNum     = "2006-01-02"
 dateformNumTime = "2006-01-02 15:04 -0700"
 
 # Metadata mostly used in document's head
-description = "Nice theme for homepages and blogs"
+description = ""
 keywords = ""
 images = [""]
 
-homeSubtitle = "All the things and some more"
+homeSubtitle = ""
 
 # Prefix of link to the git commit detail page. GitInfo must be enabled.
 # gitUrl = ""
@@ -69,7 +69,7 @@ disableReadOtherPosts = false
 # There are a lot of buttons preconfigured. If you want to change them,
 # generate the buttons here: https://sharingbuttons.io
 # and add them into your own `layouts/partials/sharing-buttons.html`
-enableSharingButtons = true
+enableSharingButtons = false
 
 # Integrate Javascript files or stylesheets by adding the url to the external assets or by
 # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -101,9 +101,19 @@ logoHomeLink = "/"
 
 # Uncomment this if you want a portrait on your start page
  [params.portrait]
-   path     = "/images/rg.png"
-   alt      = "Portrait"
-   maxWidth = "250px"
+#   path         = "/images/hand.png"
+#   alt          = "Portrait"
+#   maxWidth     = ""
+#   attribName   = "Ilustraciones"
+#   attribArtist = "Sebastian Perez"
+#   attribUrl    = "https://www.behance.net/perezeba"
+ path         = "/images/bicycle.png"
+ alt          = "Portrait"
+ maxWidth     = ""
+ attribName   = "Panorama Creatures"
+ attribArtist = "Seol Dongju"
+ attribUrl    = "https://www.behance.net/seoldongju"
+
 
 # Social icons
 [[params.social]]
