@@ -8,5 +8,5 @@ aliases = ["about-us","contact"]
                 
 My name is Ranganath. 
 
-I am a developer. Sometimes motivated, and mostly curious.
+I am a developer.
 I work at [PaperCut](https://www.papercut.com) where I work mostly with C, C++, and Golang.
