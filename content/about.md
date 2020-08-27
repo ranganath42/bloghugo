@@ -9,4 +9,4 @@ aliases = ["about-us","contact"]
 My name is Ranganath. 
 
 I am a developer.
-I work at [PaperCut](https://www.papercut.com) where I work mostly with C, C++, and Golang.
+I work at [PaperCut](https://www.papercut.com) where I mostly code with C, C++, and Golang.

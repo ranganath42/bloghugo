@@ -1,0 +1,36 @@
+# Translations for English
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# Generic
+#
+[translations]
+other = "翻訳"
+
+[postAvailable]
+other = "他の言語"
+
+
+# 404.html
+#
+[archives]
+other = "アーカイブ"
+
+[home]
+other = "ホームページ"
+
+[notFound]
+other = "見つかりません"
+
+
+# posts/single.html
+#
+[readingTime]
+one   = "一分"
+other = "{{ .Count }} 分"
+
+[tableOfContents]
+other = "内容"
+
+[wordCount]
+one   = "一言"
+other = "{{ .Count }} 言葉"

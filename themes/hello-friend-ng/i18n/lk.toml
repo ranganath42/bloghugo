@@ -1,0 +1,36 @@
+# Translations for English
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# Generic
+#
+[translations]
+other = "පරිවර්තන"
+
+[postAvailable]
+other = "වෙනත් භාෂා"
+
+
+# 404.html
+#
+[archives]
+other = "සංරක්ෂිතය"
+
+[home]
+other = "මුල් පිටුව"
+
+[notFound]
+other = "සොයා ගත නොහැක"
+
+
+# posts/single.html
+#
+[readingTime]
+one   = "විනාඩියක්"
+other = "විනාඩි {{ .Count }}"
+
+[tableOfContents]
+other = "පටුන"
+
+[wordCount]
+one   = "එක වචනයකි"
+other = "වචන {{ .Count }}"

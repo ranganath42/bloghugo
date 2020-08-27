@@ -160,16 +160,13 @@ name       = "Posts"
 url        = "posts/"
 
 [deployment]
-# By default, files are uploaded in an arbitrary order.
-# Files that match the regular expressions in the "Order" list
-# will be uploaded first, in the listed order.
 order = [".jpg$", ".gif$"]
-
 
 [[deployment.targets]]
 # An arbitrary name for this target.
 name = "website-gcs-ci"
-URL = "gs://website-ci-bb-bucket"
+URL = "gs://www.ranganath.me"
+#URL = "gs://website-ci-bb-bucket"
 
 [[deployment.matchers]]
 #  Cache static assets for 1 year.

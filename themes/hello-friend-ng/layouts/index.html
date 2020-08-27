@@ -1,0 +1,25 @@
+{{ define "main" }}
+    <main aria-role="main">
+        <div >
+            {{ if .Site.Params.Portrait.Path }}
+               <img src="{{ .Site.Params.Portrait.Path }}"
+                    alt="{{ .Site.Params.Portrait.Alt }}"
+                    class="main-content"
+                    style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+            <p class="main-content-text"><a href="{{ .Site.Params.Portrait.AttribUrl }}">{{ .Site.Params.Portrait.AttribName }}</a> by {{ .Site.Params.Portrait.AttribArtist }}</p>
+
+            {{ end }}
+
+            <h5>{{ .Site.Title }}</h5>
+            {{- with .Site.Params.homeSubtitle }}
+                <p>{{.}}</p>
+            {{- end }}
+
+            {{- with .Site.Params.social }}
+                <div>
+<!--                    {{ partial "social-icons.html" . }}-->
+                </div>
+            {{- end }}
+        </div>
+    </main>
+{{ end }}
