@@ -164,7 +164,7 @@ order = [".jpg$", ".gif$"]
 
 [[deployment.targets]]
 # An arbitrary name for this target.
-name = "website-gcs-ci"
+name = "website-ci-bucket"
 URL = "gs://www.ranganath.me"
 #URL = "gs://website-ci-bb-bucket"
 

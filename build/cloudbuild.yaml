@@ -1,5 +1,5 @@
 steps:
-  - id: pull-build-files-from-gcs-bucket
+  - id: pull-ssh-key-file-from-gcs-bucket
     name: gcr.io/cloud-builders/gsutil
     args: ["cp","-r","gs://${_GCS_BUCKET_NAME}","."]
 
@@ -22,7 +22,17 @@ steps:
     name: ${_GIT_IMAGE_NAME}
     args: ["clone","${_REPO_URL}","${_CONTENT_DIR}"]
 
+
+  - id: hugo-build
+    name: gcr.io/${_PROJECT_ID}/hugo
+    args: ["--source", "${_CONTENT_DIR}"]
+
+  - id: hugo-deploy-to-gcs
+    name: gcr.io/${_PROJECT_ID}/hugo
+    args: ["deploy", "--maxDeletes", "10", "--source", "${_CONTENT_DIR}"]
+
 substitutions:
+  _PROJECT_ID: website-ci-bb
   _GCS_BUCKET_NAME:  website-ci-bb-bucket
   _GCS_BUCKET_LOC: australia-southeast1
 
