@@ -1,5 +1,5 @@
 baseURL = "https://www.ranganath.me/"
-title   = ""
+title = "ranganath.me"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -107,12 +107,12 @@ logoHomeLink = "/"
 #   attribName   = "Ilustraciones"
 #   attribArtist = "Sebastian Perez"
 #   attribUrl    = "https://www.behance.net/perezeba"
- path         = "/images/bicycle.png"
+ path         = "/images/face.png"
  alt          = "Portrait"
  maxWidth     = ""
- attribName   = "Panorama Creatures"
- attribArtist = "Seol Dongju"
- attribUrl    = "https://www.behance.net/seoldongju"
+ attribName   = "Illustrated Book Covers"
+ attribArtist = "Vedran Klemens"
+ attribUrl    = "https://www.behance.net/klemens"
 
 
 # Social icons
